@@ -14,6 +14,18 @@
 			window.location = 'add_form.php'	
 		</script>
 		";
+		exit();
+	}
+
+	// check menu_ID pattern
+	if(!preg_match('/m[0-9]{4}/',$menu_ID)){
+		echo 
+		"<script> 
+			alert('รูปแบบของรหัสเมนูไม่ถูกต้อง') 
+			window.location = 'add_form.php'	
+		</script>
+		";
+		exit();
 	}
 
 	// check pk
@@ -28,6 +40,7 @@
 			window.location = 'add_form.php'	
 		</script>
 		";
+		exit();
 	}
 
 	// insert to database

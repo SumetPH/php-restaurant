@@ -9,11 +9,18 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row mt-5">
+		<div class="row m-5">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<h3>หน้าหลักโปรแกรม</h3>
+						<div class="row">
+							<div class="col-md-10">
+								<h3>หน้าหลักโปรแกรม</h3>
+							</div>
+							<div class="col-md-2 d-flex justify-content-center align-items-center">
+								<a href="index.php">หน้าหลัก</a>
+							</div>
+						</div>
 					</div>
 					<div class="card-body">
 						<div class="row justify-content-center m-3">

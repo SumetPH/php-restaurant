@@ -14,6 +14,7 @@
 			window.location = 'edit_form.php'	
 		</script>
 		";
+		exit();
 	}
 
 	if(empty($menu_Name) || empty($menu_Type) ){
@@ -23,6 +24,7 @@
 			window.location = 'edit_form.php'	
 		</script>
 		";
+		exit();
 	}
 
 	// insert to database

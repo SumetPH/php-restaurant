@@ -11,6 +11,7 @@
 			window.location = 'edit_form.php'	
 		</script>
 		";
+		exit();
 	}
 
 	$sql = "DELETE from menu where menu_ID = '$menu_ID'";
